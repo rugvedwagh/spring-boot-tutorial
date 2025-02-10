@@ -33,9 +33,6 @@ public class Book {
         this.publisher = publisher;
     }
 
-    @ManyToOne
-    private Publisher publisher;
-
     public Set<Author> getAuthors() {
         return authors;
     }
